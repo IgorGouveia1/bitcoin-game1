@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.aplication__Name {
+    text-align: center;
+    padding: 20px;
+}
+
+.aplication__Description {
+    text-align: center;
+}
+
+body {
+    background-color: #fff68f
+
+}
+
+.botao { 
+    display: block;
+    text-align: center;
+    margin-left: 40%;
+    padding: 10;
+}

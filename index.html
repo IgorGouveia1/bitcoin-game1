@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qualCryptoDevoComprar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 class="aplication__Name">Qual Crpyto Devo Comprar?</h1>
+        <div class="aplication__Description">
+            <h2>Deixe o universo decidir qual cryptomoeda você irá investir</h2>
+        </div>
+
+        <button class="botao" onclick="RandomCrypto()">Qual Crypto devo Comprar?</button>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script>
+        
+        function RandomCrypto() {
+        var nomes = ['Bitcoin', 'Etherium', 'Dogecoin', 'Binance Coin', 'Cardano', 'Bitcoin Cash', 'Litecoin', 'Polkadot', 'Stellar', 'Chainlink', 'Tether', 'Monero'];
+        var name = nomes[Math.ceil(Math.random() * (nomes.length - 1))];
+        alert(name);
+        }
+    </script>
+
+</body>
+</html>
